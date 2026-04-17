@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photobooth | Photobooth.co</title>
+    <meta
+      name="description"
+      content="Una experiencia de photobooth divertida, rápida y perfecta para grupos y celebraciones."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header is-solid" data-header>
+      <a class="brand" href="index.html" aria-label="Photobooth.co home">
+        <img src="assets/logo.png" alt="Photobooth.co logo" />
+        <span>Photobooth.co</span>
+      </a>
+
+      <a
+        class="header-social"
+        href="https://www.instagram.com/photoboothcord/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Photobooth.co Instagram"
+      >
+        <img src="assets/instagram.png" alt="" />
+      </a>
+
+      <a class="header-cta" href="#inquiry">Recibir pricing</a>
+    </header>
+
+    <main>
+      <section class="detail-hero wrapper">
+        <div class="detail-copy" data-reveal>
+          <p class="eyebrow">Crowd favorite</p>
+          <h1>Photobooth</h1>
+          <p class="detail-lead">
+            La opción más casual, rápida y entretenida para capturar la energía auténtica de
+            tu evento sin complicaciones.
+          </p>
+          <div class="detail-actions">
+            <a class="button button-solid" href="#inquiry">Solicitar pricing</a>
+            <a class="button button-outline" href="index.html">Volver al inicio</a>
+          </div>
+        </div>
+
+        <div class="detail-panel detail-showcase" data-reveal>
+          <div class="detail-highlight-media">
+            <video
+              src="assets/highlights/Photobooth highlight.mov"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              disablepictureinpicture
+              data-muted-video
+              aria-label="Photobooth highlight"
+            ></video>
+          </div>
+          <div class="detail-highlight-copy">
+            <p class="panel-title">Ideal para</p>
+            <ul>
+              <li>Cumpleaños y celebraciones privadas</li>
+              <li>Eventos sociales con mucha interacción</li>
+              <li>Fiestas donde quieres recuerdos inmediatos</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-grid wrapper">
+        <article class="detail-card" data-reveal>
+          <h2>Qué incluye</h2>
+          <ul>
+            <li>Fotos impresas al momento</li>
+            <li>Dinámica fácil y entretenida para todos</li>
+            <li>Experiencia ideal para grupos y risas espontáneas</li>
+            <li>Flujo rápido para mantener la energía del evento</li>
+          </ul>
+        </article>
+
+        <article class="detail-card" data-reveal>
+          <h2>La sensación</h2>
+          <p>
+            Social, accesible y llena de momentos genuinos. Es la experiencia perfecta para
+            mantener a tus invitados participando y disfrutando sin pausa.
+          </p>
+        </article>
+
+        <article class="detail-card" data-reveal>
+          <h2>Perfecto para</h2>
+          <p>
+            Cumpleaños, eventos familiares, celebraciones corporativas relajadas y cualquier
+            ocasión donde quieras recuerdos instantáneos con mucha personalidad.
+          </p>
+        </article>
+      </section>
+
+      <section class="media-section wrapper" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Live moments</p>
+          <h2>Así se vive el Photobooth en tiempo real.</h2>
+        </div>
+        <p class="section-copy">
+          Clips rápidos, sociales y espontáneos para que el visitante sienta el ritmo y la
+          diversión antes de pedir información.
+        </p>
+
+        <div class="media-grid media-grid-video">
+          <figure class="media-tile media-video-tile">
+            <video
+              src="assets/photobooth/IMG_0435.MOV"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              disablepictureinpicture
+              data-muted-video
+              aria-label="Photobooth video highlight 1"
+            ></video>
+          </figure>
+          <figure class="media-tile media-video-tile">
+            <video
+              src="assets/photobooth/IMG_0443.mov"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              disablepictureinpicture
+              data-muted-video
+              aria-label="Photobooth video highlight 2"
+            ></video>
+          </figure>
+          <figure class="media-tile media-video-tile">
+            <video
+              src="assets/photobooth/IMG_2671.MOV"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              disablepictureinpicture
+              data-muted-video
+              aria-label="Photobooth video highlight 3"
+            ></video>
+          </figure>
+          <figure class="media-tile media-video-tile">
+            <video
+              src="assets/photobooth/IMG_2840.mov"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              disablepictureinpicture
+              data-muted-video
+              aria-label="Photobooth video highlight 4"
+            ></video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="form-section wrapper" id="inquiry" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow">Request pricing</p>
+          <h2>Comparte tus datos y te enviamos la información.</h2>
+        </div>
+
+        <form
+          class="inquiry-form"
+          name="photobooth-inquiry"
+          method="POST"
+          action="https://formspree.io/f/xjgjypze"
+        >
+          <input type="hidden" name="_subject" value="Photobooth inquiry | Photobooth.co" />
+          <input type="hidden" name="service" value="Photobooth" />
+
+          <label>
+            Nombre
+            <input type="text" name="name" placeholder="Tu nombre" required />
+          </label>
+
+          <label>
+            Número
+            <input type="tel" name="phone" placeholder="Tu número" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Tu email" required />
+          </label>
+
+          <button class="button button-solid" type="submit">Recibir precios e info</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer wrapper">
+      <p>Photobooth.co</p>
+      <p>Photobooth moments that feel social, effortless and instantly shareable.</p>
+      <p>&copy; <span data-year></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
